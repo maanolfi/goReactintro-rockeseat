@@ -1,0 +1,10 @@
+div.post {
+  display: flex;
+  align-items: center;
+   
+}
+
+div.post .post-info {
+  display: flex;
+  flex-direction: column;
+}

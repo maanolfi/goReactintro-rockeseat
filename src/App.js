@@ -1,9 +1,19 @@
 import React from 'react'
 
-import TechList from './components/TechList'
+import './App.css'
+
+import Header from './components/Header'
+import PostList from './components/PostList'
 
 function App() {
-  return <TechList />
+  return (
+    <>
+    <Header />
+    <div className='container'>
+      <PostList />
+    </div>
+    </>
+    )
 }
 
 

@@ -1,0 +1,22 @@
+div.post-comments {
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+div.post-comments img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px 0 20px;
+}
+
+div.post-comments .comment  {
+width: 600px;
+height: 100px;
+border-radius: 20px;
+padding: 15px;
+background-color: #EEEEEE;
+font-family: Helvetica;
+font-size: 18px;
+line-height: 20px;
+color: #3E3E3E;
+}
